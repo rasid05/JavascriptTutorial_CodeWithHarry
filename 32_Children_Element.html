@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello
+    <div>
+        <p>This is me and I am great</p>
+        <span>Siblings</span>
+    </div>
+
+    <script>
+        console.log(document.body.firstChild) //it will print text that space character before div
+        // remove spaces between body and div then see div is the first child
+        console.log(document.body.lastChild)
+        console.log(document.body.childNodes)
+
+        // ele.childNodes[0]==ele.firstChild
+        // ele.childNodes[childNodes.length - 1]==ele.lastChild
+
+        // Child Nodes is not a array but a list collection so array methods will not work here
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW</title>
+    <style>
+        head, body{
+            width : 100%;
+            height : 100%;
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            display: flex;
+            margin: 0;
+            padding: 10px;
+            background-color: rgb(213, 213, 35);
+        }
+        ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <p>
+        Hey I am a good Boy
+    </p>
+    <script>
+        const cB = ()=>{
+            document.body.firstElementChild.style.background = "red";
+        }
+        let b = document.body;
+        console.log("First Child of b is :" , b.firstChild)
+        console.log("First Child of b is :" , b.firstElementChild)
+    </script>
+</body>
+</html>
